@@ -36,8 +36,15 @@ Proyectos desarrollados de forma independiente para practicar y aplicar conocimi
 
 - [Comment Editor](https://github.com/smalirat/comment-editor)
   Extensión para Visual Studio Code desarrollada en TypeScript. Interactúa con la API de VS Code e implementa un motor de procesamiento de texto basado en Expresiones Regulares (Regex) para la detección y limpieza automatizada de código fuente (comentarios, logs y emojis). Estructurada bajo una arquitectura modular con soporte para pruebas automatizadas.
+
+### ArgStats · Estadísticas del fútbol argentino
+
+Un proyecto de datos sobre el fútbol argentino, desde las fuentes hasta un sitio público: recolecta, limpia y unifica datos de varios proveedores en una única base PostgreSQL, la mantiene al día de forma automática y la publica como un sitio de estadísticas, inspirado en páginas como FBref. Cubre la Liga Profesional, Primera Nacional, Primera B Metropolitana, Federal A y Copa Argentina. **Demo Web:** [arg-stats.duckdns.org](https://arg-stats.duckdns.org)
+
+- [ArgStats Web](https://github.com/smalirat/arg-stats)
+  El sitio de estadísticas: tablas, resultados y páginas de clubes, jugadores y partidos. Hecho con Astro (renderizado del lado del servidor) sobre una API REST en Node.js y Express, que lee PostgreSQL en Supabase.
 - [Arg Football Scrapper](https://github.com/smalirat/arg-football-scrapper)
-  Proyecto open source de un ecosistema modular de recolección y procesamiento de datos diseñado para centralizar información histórica y en tiempo real del fútbol argentino.
+  El repositorio central del proyecto: scrapers y ETL por fuente que arman la base, chequeos de los datos y enlaces al resto del ecosistema (pipeline de actualización y sitio web).
 
 ---
 

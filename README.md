@@ -37,8 +37,15 @@ Independently developed projects to practice and apply acquired knowledge.
 
 - [Comment Editor](https://github.com/smalirat/comment-editor)
   Visual Studio Code extension developed in TypeScript. It interacts with the VS Code API and implements a text processing engine based on Regular Expressions (Regex) for the automated detection and cleaning of source code (comments, logs, and emojis). Structured under a modular architecture with support for automated testing.
+
+### ArgStats · Argentine football statistics
+
+A data project about Argentine football, from the sources to a public website: it collects, cleans and unifies data from several providers into a single PostgreSQL database, keeps it up to date automatically, and publishes it as a statistics site, inspired in pages such as FBref. It covers the Liga Profesional, Primera Nacional, Primera B Metropolitana, Federal A and Copa Argentina. **Live demo:** [arg-stats.duckdns.org](https://arg-stats.duckdns.org)
+
+- [ArgStats Web](https://github.com/smalirat/arg-stats)
+  The statistics website: standings, results, and club, player and match pages. Built with Astro (server-side rendering) on top of a REST API in Node.js and Express, reading PostgreSQL on Supabase.
 - [Arg Football Scrapper](https://github.com/smalirat/arg-football-scrapper)
-  Open-source project with a modular data collection and processing ecosystem designed to centralize historical and real-time information on Argentine football.
+  The project's central repository: scrapers and ETL per source that build the database, data checks, and links to the rest of the ecosystem (update pipeline and website).
 
 ---
 
