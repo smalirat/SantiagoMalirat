@@ -46,6 +46,10 @@ Un proyecto de datos sobre el fútbol argentino, desde las fuentes hasta un siti
 - [Arg Football Scrapper](https://github.com/smalirat/arg-football-scrapper)
   El repositorio central del proyecto: scrapers y ETL por fuente que arman la base, chequeos de los datos y enlaces al resto del ecosistema (pipeline de actualización y sitio web).
 
+### Torneo de Exalumnos · Gestión de una liga de fútbol amateur
+
+Aplicación web para administrar una liga local, pensada para reemplazar el sistema manual que trabaja con plantillas de Excel con la que se lleva hoy: ediciones, fixture, resultados, tablas, goleadores, sanciones y la historia de campeones. **Demo:** [torneo-marianista-demo.duckdns.org](https://torneo-marianista-demo.duckdns.org)
+
 ---
 
 📫 **Contacto**
