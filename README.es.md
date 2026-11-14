@@ -8,6 +8,9 @@ Soy **estudiante de Ingeniería en Sistemas (UTN)**, con interés en ciberseguri
 
 Proyectos desarrollados como esfuerzos colaborativos para materias universitarias.
 
+- [TP DSI – DonaTrack](https://github.com/smalirat/donatrack)
+  Trabajo práctico anual de la materia *Diseño de Sistemas de Información* (2026). Sistema de gestión y trazabilidad de donaciones construido con microservicios: cuatro servicios Spring Boot (Java 21) con su propia base PostgreSQL, integrados de forma sincrónica por REST y asincrónica mediante RabbitMQ (colas de trabajo con workers competidores, reintentos y dead letter queues, y un exchange topic para eventos de dominio). Implementa el patrón CQRS con un modelo de lectura en MongoDB, actualizado mediante proyecciones idempotentes de eventos y consultado con aggregation pipelines, detrás de un Spring Cloud Gateway. Incluye observabilidad con Micrometer y Datadog (métricas de negocio, logs centralizados y alarmas por email), un bot de Telegram y un servidor MCP en TypeScript para operar todo el sistema desde Claude.
+
 - [TP DSI – Diseño de Sistemas de Información](https://github.com/smalirat/tp-dsi-1)
   Trabajo práctico de la materia *Diseño de Sistemas de Información*. Desarrollo de una plataforma web (MetaMapa) aplicando arquitectura MVC y diseño de API REST. Construido con Java y Javalin, implementa persistencia relacional mediante JPA/Hibernate, usando PostgreSQL como motor de base de datos. Aplicación de patrones de diseño para la integración con APIs de fuentes externas (Adapter), y renderizado *server-side* utilizando Handlebars.
 

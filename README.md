@@ -8,6 +8,9 @@ I am an **Information Systems Engineering student (UTN)**, with an interest in c
 
 Projects developed as collaborative efforts for university courses.
 
+- [TP DSI – DonaTrack](https://github.com/smalirat/donatrack)
+  Annual project for the *Information Systems Design* course (2026). A donation management and traceability system built as microservices: four Spring Boot services (Java 21) with their own PostgreSQL databases, integrated synchronously over REST and asynchronously through RabbitMQ (work queues with competing workers, retries and dead letter queues, and a topic exchange for domain events). Implements the CQRS pattern with a read model in MongoDB, kept up to date through idempotent event projections and queried with aggregation pipelines, behind a Spring Cloud Gateway. Includes observability with Micrometer and Datadog (business metrics, centralized logging and email alerts), a Telegram bot, and an MCP server in TypeScript to operate the whole system from Claude.
+
 - [TP DSI – Information Systems Design](https://github.com/smalirat/tp-dsi-1)
   Practical assignment for the *Information Systems Design* course. Development of a web platform (MetaMapa) applying MVC architecture and REST API design. Built with Java and Javalin, it implements relational persistence through JPA/Hibernate, using PostgreSQL as the database engine. Application of design patterns for integration with external source APIs (Adapter), and *server-side* rendering using Handlebars.
 
