@@ -37,6 +37,9 @@ Proyectos desarrollados de forma independiente para practicar y aplicar conocimi
 - [Comment Editor](https://github.com/smalirat/comment-editor)
   Extensión para Visual Studio Code desarrollada en TypeScript. Interactúa con la API de VS Code e implementa un motor de procesamiento de texto basado en Expresiones Regulares (Regex) para la detección y limpieza automatizada de código fuente (comentarios, logs y emojis). Estructurada bajo una arquitectura modular con soporte para pruebas automatizadas.
 
+- [Cumpleaños → Google Calendar](https://github.com/smalirat/birthdays-alarms)
+  Extensión de Chrome que agrega cumpleaños a Google Calendar como eventos anuales con recordatorios. Hecha para probar las APIs de Google Cloud (Calendar API + OAuth 2.0).
+
 ### ArgStats · Estadísticas del fútbol argentino
 
 Un proyecto de datos sobre el fútbol argentino, desde las fuentes hasta un sitio público: recolecta, limpia y unifica datos de varios proveedores en una única base PostgreSQL, la mantiene al día de forma automática y la publica como un sitio de estadísticas, inspirado en páginas como FBref. Cubre la Liga Profesional, Primera Nacional, Primera B Metropolitana, Federal A y Copa Argentina. **Demo Web:** [arg-stats.duckdns.org](https://arg-stats.duckdns.org)
