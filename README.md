@@ -38,7 +38,7 @@ Independently developed projects to practice and apply acquired knowledge.
 - [Comment Editor](https://github.com/smalirat/comment-editor)
   Visual Studio Code extension developed in TypeScript. It interacts with the VS Code API and implements a text processing engine based on Regular Expressions (Regex) for the automated detection and cleaning of source code (comments, logs, and emojis). Structured under a modular architecture with support for automated testing.
 
-- [Birthdays → Google Calendar](https://github.com/smalirat/birthdays-alarms)
+- [Birthdays for Google Calendar](https://github.com/smalirat/birthdays-alarms)
   Chrome extension that adds birthdays to Google Calendar as yearly events with reminders. Built to try out the Google Cloud APIs (Calendar API + OAuth 2.0).
 
 ### ArgStats · Argentine football statistics
